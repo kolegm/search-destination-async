@@ -8,14 +8,14 @@
       "name": "geonames",
       "active": true,
       "options": {
-        "username": "node"
+        "username": "demo"
       }
     },
     "wiki": {
       "name": "wiki",
       "active": true,
       "options": {
-        "username": "node"
+        "username": "demo"
       }
     }
   }
