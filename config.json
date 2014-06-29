@@ -1,0 +1,22 @@
+{
+  "provider": {
+    "google": {
+      "name": "google",
+      "active": true
+    },
+    "geonames": {
+      "name": "geonames",
+      "active": true,
+      "options": {
+        "username": "kolegm"
+      }
+    },
+    "wiki": {
+      "name": "wiki",
+      "active": true,
+      "options": {
+        "username": "node"
+      }
+    }
+  }
+}
