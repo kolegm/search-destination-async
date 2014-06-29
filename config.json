@@ -18,6 +18,10 @@
       "options": {
         "username": "demo"
       }
+    },
+    "open-street-map": {
+      "name": "osm",
+      "active": true
     }
   }
 }
