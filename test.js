@@ -10,8 +10,12 @@ var options = {
 }
 
 function callback (error, result) {
-  if (error) console.log(error);
-  else console.log(result);
+  if (error) {
+    console.log(error);
+  }
+  else {
+    console.log(result);
+  }
 }
 
 searcher.search(ADDRESS, callback, options);
