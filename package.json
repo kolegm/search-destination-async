@@ -1,7 +1,7 @@
 {
   "name": "search-destination-async",
-  "version": "0.0.5",
-  "description": "Search destinations by name, address, point of interest or coordinates. Using utils async.js",
+  "version": "0.0.6",
+  "description": "Search destinations by name, address, point of interest or coordinates. Using utility async.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

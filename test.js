@@ -1,4 +1,4 @@
-var searcher = require('./index.js');
+var searcher = require('./');
 
 const ADDRESS = 'Paris';
 const LATITUDE = '48.833330';
@@ -9,14 +9,38 @@ var options = {
   language: LANGUAGE
 }
 
-function callback (error, result) {
+function callbackOnTask (error, result) {
   if (error) {
     console.log(error);
   }
   else {
-    console.log(result);
+    //console.log(result);
   }
 }
 
-searcher.search(ADDRESS, callback, options);
-searcher.reverse(LATITUDE, LONGITUDE, callback, options);
+function callbackOnFinish (error, result) {
+  if (error) {
+    console.log('finish error: ' + error);
+  }
+  else {
+    console.log('finish process: ' + result);
+  }
+
+  var m = process.memoryUsage();
+  console.log('Used memory: ' + m.heapUsed + ' / ' + m.heapTotal);
+}
+
+searcher.search({
+  address:ADDRESS,
+  callbackOnTask: callbackOnTask,
+  callbackOnFinish: callbackOnFinish,
+  options: options
+});
+
+searcher.reverse({
+  latitude: LATITUDE,
+  longitude: LONGITUDE,
+  callbackOnTask: callbackOnTask,
+  callbackOnFinish: callbackOnFinish,
+  options: options
+});
