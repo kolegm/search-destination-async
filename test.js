@@ -18,13 +18,8 @@ function callbackOnTask (error, result) {
   }
 }
 
-function callbackOnFinish (error, result) {
-  if (error) {
-    console.log('finish error: ' + error);
-  }
-  else {
-    console.log('finish process: ' + result);
-  }
+function callbackOnFinish () {
+  console.log('search process has been finished');
 
   var m = process.memoryUsage();
   console.log('Used memory: ' + m.heapUsed + ' / ' + m.heapTotal);
