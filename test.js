@@ -14,7 +14,7 @@ function callbackOnTask (error, result) {
     console.log(error);
   }
   else {
-    //console.log(result);
+    console.log(result);
   }
 }
 

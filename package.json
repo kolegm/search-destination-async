@@ -1,6 +1,6 @@
 {
   "name": "search-destination-async",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Search destinations by name, address, point of interest or coordinates. Using utility async.js",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,6 @@
     "google",
     "osm",
     "open street map",
-    "yahoo",
-    "yandex",
     "geoname",
     "geonames",
     "poi",
