@@ -8,11 +8,11 @@ Search geographic destination by name or address, by location or point of intere
 
 ###Used external modules
 As entry point for communication with external providers
-* [Module search-destination. Entry point](https://github.com/kolegm/search-destination).
+* [Module `search-destination`. Entry point](https://github.com/kolegm/search-destination).
 As communicators for searching
-* [Module search-google-geocode. Used Google geocoding API](https://github.com/kolegm/google-geocoder).
-* [Search search-geonames. Used Geonames API](https://github.com/kolegm/search-geonames).
-* [Search search-osm-geocode. Used Open Street Map (OSM) API](https://github.com/kolegm/search-osm-geocode).
+* [Module `search-google-geocode`. Used Google geocoding API](https://github.com/kolegm/google-geocoder).
+* [Module `search-geonames. Used Geonames API](https://github.com/kolegm/search-geonames).
+* [Module `search-osm-geocode`. Used Open Street Map (OSM) API](https://github.com/kolegm/search-osm-geocode).
 
 ### Usage example
 ```javascript
