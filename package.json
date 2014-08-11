@@ -1,6 +1,6 @@
 {
   "name": "search-destination-async",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Search destinations by name, address, point of interest or coordinates. Using utility async.js",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "async": "^0.9.0",
-    "search-destination": "^0.0.11",
+    "search-destination": "^0.0.12",
     "underscore": "^1.6.0"
   },
   "author": {
